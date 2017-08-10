@@ -12,6 +12,7 @@
 <input type="button" value="2" onclick=document.getElementById('demo').value+="2">
 <input type="button" value="3" onclick=document.getElementById('demo').value+="3">
 <input type="button" value="+" onclick=document.getElementById('demo').value+="+">
+<input type="button" value="c" onclick=document.getElementById('demo').value="">
 
 <br>
 <input type="button" value="4" onclick=document.getElementById('demo').value+="4">
@@ -25,6 +26,7 @@
 <input type="button" value="*" onclick=document.getElementById('demo').value+="*">
 
 <br>
+<input type="button" value="b" onclick=document.getElementById('demo').value=document.getElementById('demo').value.slice(0,document.getElementById('demo').value.length-1);>
 <input type="button" value="=" onclick=document.getElementById('demo').value=eval(document.getElementById('demo').value)>
 <input type="button" value="0" onclick=document.getElementById('demo').value+="0">
 <input type="button" value="/" onclick=document.getElementById('demo').value+="/">
